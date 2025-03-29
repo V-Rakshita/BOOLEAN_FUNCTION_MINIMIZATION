@@ -1,4 +1,7 @@
-# BOOLEAN_FUNCTION_MINIMIZATION
+### Name: V Rakshita
+### Reg no: 212224100049
+
+# EXP 2 - BOOLEAN FUNCTION
 
 **AIM:**
 
@@ -12,11 +15,7 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 Hardware – PCs, Cyclone II , USB flasher
 
-**Software – Quartus prime**
-
-**Theory**
-
-**Logic Diagram**
+Software – Quartus prime
 
 **Procedure**
 
@@ -32,19 +31,39 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+```
+module EXP2(a,b,c,d,w,x,y,z,f1,f2);
+input a,b,c,d,w,x,y,z;
+output f1,f2;
+wire x1,x2,x3,x4,y1,y2,y3,y4,y5;
+assign x1=((~a)&(~b)&(~c)&(~d));
+assign x2=(a&(~c)&(~d));
+assign x3=((~b)&(c)&(~d));
+assign x4=((~a)&(b)&(c)&(d));
+assign x5=(b&(~c)&(d));
+assign f1=x1|x2|x3|x4|x5;
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+assign y1=(x&(~y)&(z));
+assign y2=((~x)&(~y)&z);
+assign y3=((~w)&x&y);
+assign y4=(w&(~x)&y);
+assign y5=(w&x&y);
+assign f2=y1|y2|y3|y4|y5;
+endmodule
+```
 
-Developed by: RegisterNumber:*/
+**Truth Table:**
 
+![Screenshot (222)](https://github.com/user-attachments/assets/fa616d02-fd72-46e4-a314-fe1ba7b46f08)
 
-**RTL realization**
+![Screenshot (223)](https://github.com/user-attachments/assets/ab7d39df-e6b8-4a1c-bed9-56b96ae970fd)
 
-**Output:**
+**Logic Diagram:**
+![Screenshot (217)](https://github.com/user-attachments/assets/9c74e086-d655-448f-9716-140a4e4b2880)
 
-**RTL**
+**Waveform:**
+![Screenshot (220)](https://github.com/user-attachments/assets/f8172440-2d9e-42c2-bbfa-c98e2f701678)
 
-**Timing Diagram**
 
 **Result:**
 
