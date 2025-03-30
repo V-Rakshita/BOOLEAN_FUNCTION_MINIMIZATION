@@ -3,7 +3,7 @@
 
 # EXP 2 - BOOLEAN FUNCTION
 
-**AIM:**
+## **AIM:**
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
@@ -11,13 +11,13 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
-**Equipment Required:**
+## **Equipment Required:**
 
 Hardware – PCs, Cyclone II , USB flasher
 
 Software – Quartus prime
 
-**Procedure**
+## **Procedure**
 
 1.	Type the program in Quartus software.
 
@@ -30,7 +30,7 @@ Software – Quartus prime
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
+## **Program:**
 ```
 module EXP2(a,b,c,d,w,x,y,z,f1,f2);
 input a,b,c,d,w,x,y,z;
@@ -52,20 +52,19 @@ assign f2=y1|y2|y3|y4|y5;
 endmodule
 ```
 
-**Truth Table:**
+## **Truth Table and Logic Diagram:**
 
 ![Screenshot (222)](https://github.com/user-attachments/assets/fa616d02-fd72-46e4-a314-fe1ba7b46f08)
 
 ![Screenshot (223)](https://github.com/user-attachments/assets/ab7d39df-e6b8-4a1c-bed9-56b96ae970fd)
 
-**Logic Diagram:**
 ![Screenshot (217)](https://github.com/user-attachments/assets/9c74e086-d655-448f-9716-140a4e4b2880)
 
-**Waveform:**
+## **Waveform:**
 ![Screenshot (220)](https://github.com/user-attachments/assets/f8172440-2d9e-42c2-bbfa-c98e2f701678)
 
 
-**Result:**
+## **Result:**
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
