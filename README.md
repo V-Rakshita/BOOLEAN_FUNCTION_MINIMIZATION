@@ -61,7 +61,8 @@ endmodule
 ![Screenshot (217)](https://github.com/user-attachments/assets/9c74e086-d655-448f-9716-140a4e4b2880)
 
 ## **Waveform:**
-![Screenshot (220)](https://github.com/user-attachments/assets/f8172440-2d9e-42c2-bbfa-c98e2f701678)
+
+![WhatsApp Image 2025-04-15 at 21 38 27_13e76a24](https://github.com/user-attachments/assets/0de4bf30-b862-4377-8e83-61be9b68d9ea)
 
 
 ## **Result:**
